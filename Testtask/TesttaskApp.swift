@@ -26,6 +26,7 @@ struct TesttaskApp: App {
                 // Create Splash passing the coordinator
                 SplashView(coordinator: splashCoordinator)
             }
+            .preferredColorScheme(.light)
         }
     }
 }
