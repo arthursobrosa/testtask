@@ -28,6 +28,28 @@ Testtask uses the following Apple frameworks:
 
 The project does not rely on third-party dependencies.
 
+## External API
+The application interacts with a REST API to fetch and register users.
+
+### GET requests
+- Endpoint: **/users**
+  - Retrieves a paginated list of users.
+  - Displays 6 users per request.
+  - Loads the next 6 users when scrolling.
+- Endpoint: **/positions**
+  - Retrieves available user positions.
+  - Used for displaying radio button options in the registration form.
+- Endpoint: **/token**
+    - Returns an authentication token required for making POST requests.
+    - The token must be included in the request headers when registering a user.
+
+### POST requests
+- Endpoint: **/users**
+  - Registers a new user.
+  - Requires a valid authentication token.
+  - Implements validation according to the API documentation.
+  - After successful registration, the new user appears in the /users list.
+
 ## Architecture & Package Management
 - **Architecture**: The project follows the **MVVM (Model-View-ViewModel)** architecture.
 - **Package Management**: Uses **Swift Package Manager (SPM)** to manage dependencies and modularization.
