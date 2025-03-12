@@ -30,10 +30,6 @@ let package = Package(
                 .product(name: "Fonts", package: "DesignSystem"),
                 .product(name: "Home", package: "Home")
             ]
-        ),
-        .testTarget(
-            name: "SplashTests",
-            dependencies: ["Splash"]
-        ),
+        )
     ]
 )

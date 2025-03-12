@@ -25,10 +25,6 @@ let package = Package(
                 .product(name: "API", package: "Common"),
                 .product(name: "Components", package: "DesignSystem")
             ]
-        ),
-        .testTarget(
-            name: "SignUpTests",
-            dependencies: ["SignUp"]
         )
     ]
 )

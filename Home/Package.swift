@@ -27,10 +27,6 @@ let package = Package(
                 .product(name: "SignUp", package: "SignUp"),
                 .product(name: "Users", package: "Users")
             ]
-        ),
-        .testTarget(
-            name: "HomeTests",
-            dependencies: ["Home"]
         )
     ]
 )

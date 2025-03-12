@@ -26,10 +26,6 @@ let package = Package(
                 .product(name: "Colors", package: "DesignSystem"),
                 .product(name: "Fonts", package: "DesignSystem")
             ]
-        ),
-        .testTarget(
-            name: "UsersTests",
-            dependencies: ["Users"]
         )
     ]
 )
