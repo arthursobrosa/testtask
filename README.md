@@ -31,6 +31,8 @@ The project does not rely on third-party dependencies.
 ## External API
 The application interacts with a REST API to fetch and register users.
 
+[API Documentation](https://openapi_apidocs.abz.dev/frontend-test-assignment-v1)
+
 ### GET requests
 - Endpoint: **/users**
   - Retrieves a paginated list of users.
