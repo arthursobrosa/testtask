@@ -62,7 +62,7 @@ There are no API keys or environment variables required for running the project.
 ## Building and Running the Application
 1. Clone the repository from GitHub:
    ```sh
-   git clone <repository-url>
+   git clone git@github.com:arthursobrosa/testtask.git
    ```
 2. Open the project in Xcode:
    ```sh
